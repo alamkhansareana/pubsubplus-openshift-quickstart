@@ -560,7 +560,7 @@ objects:
       active: "true"
 
 - kind: StatefulSet
-  apiVersion: apps/v1
+  apiVersion: apps/v1beta1
   metadata:
     name: "${DEPLOYMENT_NAME}-pubsubplus"
     labels:
